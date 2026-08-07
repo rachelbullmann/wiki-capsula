@@ -3,7 +3,7 @@ name: Deploy Radar do Dragão to GitHub Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "master"]
   workflow_dispatch:
 
 permissions:
@@ -25,16 +25,20 @@ jobs:
       - name: Checkout Código Fonte
         uses: actions/checkout@v4
 
-      - name: Configurar Node.js 20
+      - name: Configurar Node.js 22
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: 'npm'
+          node-version: 22
 
       - name: Instalar Dependências
-        run: npm ci
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
 
-      - name: Compilar Projeto Statically (Vite)
+      - name: Compilar Projeto
         run: npm run build
 
       - name: Configurar GitHub Pages
