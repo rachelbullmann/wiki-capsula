@@ -1,7 +1,7 @@
 # Radar do Dragão — Capsule Corp. (Wiki Cápsula)
 
-Sistema de Mapeamento, Grafo de Conceitos e Anotações em Markdown da Capsule Corp.
-
+Sistema de Mapeamento, Grafo de Conceitos e Anotações em Markdown.
+Acessivel em: https://rachelbullmann.github.io/wiki-capsula/
 ---
 
 ## 🚀 Como publicar este projeto no GitHub Pages
