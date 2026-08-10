@@ -55,4 +55,4 @@ Você pode publicar o seu aplicativo no GitHub Pages usando **qualquer um dos do
 ---
 
 ## 📄 Licença
-Desenvolvido por Capsule Corp.
+This repository is open-source and distributed under the MIT License.
