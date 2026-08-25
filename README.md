@@ -4,7 +4,13 @@ Sistema de Mapeamento, Grafo de Conceitos e Anotações em Markdown.
 Acessivel em: https://rachelbullmann.github.io/wiki-capsula/
 ---
 
-## 🚀 Como publicar este projeto no GitHub Pages
+## O que é o Radar do Dragão?
+
+Ja se sentiu perdido tentando encontra as esferas, digo, as suas anotações?
+Eu tive esse problema e resolvi criar de forma online algo que eu pudesse consultar da forma como eu me entendo. Assim surgiu a wiki Radar do Dragão. Ja tem algumas notas ali, mas ela salva no localstorage do seu navegador, voce pode apagar e começar suas anotaçoes do seu jeito. 
+Código aberto, pode copiar e remodelar, me marca pra eu ver o que você fez de novo. 
+
+## Como publicar este projeto no GitHub Pages
 
 Este ambiente já foi pré-configurado com as melhores práticas para publicação no **GitHub Pages** (com suporte a base relativa, script de build estático e suporte a GitHub Actions).
 
@@ -45,7 +51,7 @@ Você pode publicar o seu aplicativo no GitHub Pages usando **qualquer um dos do
 
 ---
 
-## 🛠️ Comandos Disponíveis
+## Comandos Disponíveis
 
 - `npm run dev`: Inicia o servidor de desenvolvimento local.
 - `npm run build:pages`: Compila os arquivos estáticos para a pasta `dist/` (utilizado pelo GitHub Pages).
